@@ -2,7 +2,7 @@
 
 # 第二步，创建一个worker，并写入如下代码：
 
-export default {
+​```export default {
   async fetch(request, env) {
     const _url = new URL(request.url);
     const hostname = _url.hostname
@@ -20,6 +20,6 @@ export default {
     }
     return newres 
   },
-};
+};```
 
 # 第三步，自定义域名，方便访问。
