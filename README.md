@@ -1,6 +1,6 @@
-#第一步，绑定你的域名到cloudflare。
+# 第一步，绑定你的域名到cloudflare。
 
-#第二步，创建一个worker，并写入如下代码：
+# 第二步，创建一个worker，并写入如下代码：
 
 export default {
   async fetch(request, env) {
@@ -21,4 +21,5 @@ export default {
     return newres 
   },
 };
-#第三步，自定义域名，方便访问。
+
+# 第三步，自定义域名，方便访问。
